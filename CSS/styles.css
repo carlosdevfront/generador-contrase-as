@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16A085;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #2b2c2c, #16A085), repeating-radial-gradient(circle at center center, #2b2c2c, #2b2c2c, 4px, transparent 8px, transparent 4px);
+    background-blend-mode: multiply;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.logo{
+    width: 120px;
+    margin: 30px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+
+#passwordBox{
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    border-color: #16A085;
+    border-style: double;
+    padding: 0px 10px;
+}
+
+.btn-pswrd{
+    height: 35px;
+    width: 80px;
+    background-color: #16A085;
+    color: #000;
+    border-radius: 15px;
+    border-style: double;
+}
